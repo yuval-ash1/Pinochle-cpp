@@ -1,0 +1,18 @@
+Round: 1
+
+Computer:
+	Score: 0 / 27
+	Hand: AC KH QC AD 9H TC QD 9S QH KD TC KC 
+	Capture Pile: QS KS 
+	Melds: KH QH 
+
+Human:
+	Score: 0 / 5
+	Hand: AH TD QD TH 9D JD TS AD JH TH TS 9H 
+	Capture Pile: JS QS 
+	Melds: 
+
+Trump Card: AS
+Stock: TC TS 9H KC 9D TD 9S QC JC KD AC QH JC AS 9C JS KH NC JH KS KC AH JD 
+
+Next Player: Human
