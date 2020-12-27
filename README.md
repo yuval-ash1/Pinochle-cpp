@@ -2,7 +2,11 @@
 
 CONTENTS OF THIS FILE
 ---------------------
-
+* Introduction
+* Rules of the Pinochle Game
+* Game Points
+* Classes Defined for this Project
+* Additional Information
 
 INTRODUCTION
 ------------
@@ -124,3 +128,6 @@ This class is for the computer player, it is derived from the Player class (poly
 
 ADDITIONAL INFORMATION
 ----------------------
+1. The Game rules were taken from Professor Amruth Kumar's webpage and can be found in further detail in the following link- https://pages.ramapo.edu/~amruth/teaching/opl/pinochle/problem.html
+1. Further game guidlined can also be found in the following link- https://pages.ramapo.edu/~amruth/teaching/opl/instrns/cpp.html
+1. An example of the loadable serialization files is added to this repository as Case1.txt, Case2.txt and Case3.txt.
