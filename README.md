@@ -83,6 +83,7 @@ Points earned for the turn cards are as follows:
   * 4 points for each King
   * 3 points for each Queen
   * 2 points for each Jack
+
 Points earned for a melds are as follows:
   * Ace, Ten, King, Queen and Jack of Trump suit - called flush - 150 points
   * King and Queen of Trump suit - called royal marriage - 40 points
@@ -96,6 +97,30 @@ Points earned for a melds are as follows:
 
 CLASSES DEFINED FOR THIS PROJECT
 --------------------------------
+#### Card class
+This class is responsible for the card objects- a card contains a type and a suit.
+•	Members: type (char), suit (char)
+#### Deck class
+This class is responsible for the deck, it initializes the deck and holds and sets the trump card.
+•	Members: a deck (vector of Card types), trump (Card type)
+#### Game class
+This class starts the game, it is responsible to start a new game and load an existing game.
+•	Members: round number (int)
+#### Round class
+This class is responsible for starting a round, which displays all the players’ info and calls a turn. It also tells the deck class to deal cards at the beginning of the game and after every turn.
+•	Members: a player list (pointer to an array of 2 Player types), next player index (int)
+#### Turn class
+This class is responsible for a turn, it calls both players to play in the right order, determines who won, and asks them if they want to play a meld.
+•	Members: flush, fourA, fourK, fourQ, royal_marriage, fourJ, pinochle, marriage, dix 
+•	All of the above are integers that hold how many points a player can get by playing this meld, IF the player has all the necessary cards (if doesn’t- these will be 0)
+#### Player class
+This class, is responsible for performing all the actions that are related to the player playing its turn. This includes the play functions, meld functions, strategy functions, etc.
+•	Members: hand (a vector of Card objects), capture_pile (a vector of Card objects), previous_melds_names (a vector of strings), previous_melds_cards (a vector of strings)
+#### Human class
+This class is for the human player, it is derived from the Player class (polymorphism), it has the neccessary functionalities for the human player.
+#### Computer class
+This class is for the computer player, it is derived from the Player class (polymorphism), it has the neccessary functionalities for the computer player.
+
 
 ADDITIONAL INFORMATION
 ----------------------
