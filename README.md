@@ -22,7 +22,9 @@ Pinochle is a card game played by 2 players.
   * Each player has a hand and a capture pile.
   * In addition, a stock pile is part of the game.
 
-* A Round
+### A Round
+#### A Round
+##### A Round
 
  A round is set up as follows:
    * The deck is shuffled.
