@@ -74,16 +74,17 @@ Winner picks the next card from the stock.
 A game consists of as many rounds as the human player wants to play. The human player is asked before each round whether the player wants to play another round.
 * If the human player replies yes, another round is started.
 * If the human player replies no, the game is ended and the player with the most points is declared the winner of the game.
-* Score
+#### Score
 On each turn, the winner earns points for:
   * the two cards captured during the turn;
   * any new meld created during that turn.
+ 
  Winning strategy involves both picking the card from hand to play during each turn and finding a meld to declare during the turn, if available.
-* Computer Player's Strategy
+#### Computer Player's Strategy
  Your computer player must play to win. It must have a strategy for:
   * the card to play from its hand
-   * when it is the lead player of the turn - it will want to take possible melds into account before playng a card;
-   * when it is the chase player of the turn - it will want to try to win the turn as inexpensively as possible, i.e., use Trump cards only when absolutely necessary.
+    * when it is the lead player of the turn - it will want to take possible melds into account before playng a card;
+    * when it is the chase player of the turn - it will want to try to win the turn as inexpensively as possible, i.e., use Trump cards only when absolutely necessary.
   * the meld to declare on each turn it wins - it will want to pick the meld that will yield the most points.
   
 CLASSES DEFINED FOR THIS PROJECT
