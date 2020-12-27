@@ -39,36 +39,36 @@ During a turn, the two players play as follows:
 * The first player plays a card from hand, called the lead card.
 * The other player plays a card from hand, called the chase card.
 * The winner of the turn is determined as follows:
- * If the lead card is of trump suit, the chase card must be a larger card of trump suit to win.
+  * If the lead card is of trump suit, the chase card must be a larger card of trump suit to win.
  Note that cards in increasing value are: 9, Jack, Queen, King, Ten and Ace (highest value).
- * If the lead card is not of trump suit, the chase card must be a larger card of the same suit to win. Alternatively, it can be any card of trump suit to win. If chase card is neither of trump suit, nor of the suit of lead card, lead card wins.
- * If the lead and chase cards are exactly the same card (trump or non-trump), lead card wins.
+  * If the lead card is not of trump suit, the chase card must be a larger card of the same suit to win. Alternatively, it can be any card of trump suit to win. If chase card is neither of trump suit, nor of the suit of lead card, lead card wins.
+  * If the lead and chase cards are exactly the same card (trump or non-trump), lead card wins.
 * The winner of the turn adds the lead and chase cards to own capture pile. The winner earns points for the lead and chase cards as follows:
- * 11 points for each Ace
- * 10 points for each Ten card
- * 4 points for each King
- * 3 points for each Queen
- * 2 points for each Jack.
+  * 11 points for each Ace
+  * 10 points for each Ten card
+  * 4 points for each King
+  * 3 points for each Queen
+  * 2 points for each Jack.
 * Winner (and only the winner) of the turn can declare a meld using cards from hand. The possible melds and the points earned for each are:
- * Ace, Ten, King, Queen and Jack of Trump suit - called flush - 150 points
- * King and Queen of Trump suit - called royal marriage - 40 points
- * King and Queen of any other suit - called marriage - 20 points
- * Nine of Trump suit - called dix - 10 points
- * Aces of four different suits - called four Aces - 100 points
- * Kings of four different suits - called four Kings - 80 points
- * Queens of four different suits - called four Queens - 60 points
- * Jacks of four different suits - called four Jacks - 40 points
- * Queen of Spades and Jack of Diamonds - called Pinochle - 40 points
+  * Ace, Ten, King, Queen and Jack of Trump suit - called flush - 150 points
+  * King and Queen of Trump suit - called royal marriage - 40 points
+  * King and Queen of any other suit - called marriage - 20 points
+  * Nine of Trump suit - called dix - 10 points
+  * Aces of four different suits - called four Aces - 100 points
+  * Kings of four different suits - called four Kings - 80 points
+  * Queens of four different suits - called four Queens - 60 points
+  * Jacks of four different suits - called four Jacks - 40 points
+  * Queen of Spades and Jack of Diamonds - called Pinochle - 40 points
 The rules for melds are as follows:
- * The player can make only one meld in a turn.
- * The player can add to an earlier meld to create a new meld with a different name, e.g., add King to a Pinochle from an earlier turn to create a marriage. The player cannot add a fifth King to four of Kings to create a new four of Kings meld.
-  * The meld must contain at least one new card from hand.
- * All the cards in the meld are still part of the hand, and the player must play them on future turns.
+  * The player can make only one meld in a turn.
+  * The player can add to an earlier meld to create a new meld with a different name, e.g., add King to a Pinochle from an earlier turn to create a marriage. The player cannot add a fifth King to four of Kings to create a new four of Kings meld.
+    * The meld must contain at least one new card from hand.
+  * All the cards in the meld are still part of the hand, and the player must play them on future turns.
 The melds of each player are displayed separately from the hand.
 Winner picks the next card from the stock.
  * The other player picks the next card from the stock. If the winner picked the last card from the stock, the other player picks the trump card.
-  * Note that once the stock is exhausted, the game continues without either player picking any new card.
-  * The order in which players pick a card from the stock is important from serialization perspective.
+   * Note that once the stock is exhausted, the game continues without either player picking any new card.
+   * The order in which players pick a card from the stock is important from serialization perspective.
  * Winner will play first on the next turn.
 #### A Game
 A game consists of as many rounds as the human player wants to play. The human player is asked before each round whether the player wants to play another round.
