@@ -24,8 +24,8 @@ Pinochle is a card game played by 2 players.
 
 * A Round
  A round is set up as follows:
- * The deck is shuffled.
- * The cards are dealt, four at a time, to the two players, starting with the human player, i.e., human player is dealt 4 cards, computer is dealt 4 cards, human player is dealt the next 4 cards and so on till both the players have 12 cards each in their hand.
+  * The deck is shuffled.
+  * The cards are dealt, four at a time, to the two players, starting with the human player, i.e., human player is dealt 4 cards, computer is dealt 4 cards, human player is dealt the next 4 cards and so on till both the players have 12 cards each in their hand.
  * The next card is placed face up on the table. The suit of this card is the trump suit.
  * The remaining cards are left in the stock pile, face down.
  After set up, the first player on the first turn is determined as follows:
