@@ -43,22 +43,10 @@ During a turn, the two players play as follows:
  Note that cards in increasing value are: 9, Jack, Queen, King, Ten and Ace (highest value).
   * If the lead card is not of trump suit, the chase card must be a larger card of the same suit to win. Alternatively, it can be any card of trump suit to win. If chase card is neither of trump suit, nor of the suit of lead card, lead card wins.
   * If the lead and chase cards are exactly the same card (trump or non-trump), lead card wins.
-* The winner of the turn adds the lead and chase cards to own capture pile. The winner earns points for the lead and chase cards as follows:
-  * 11 points for each Ace
-  * 10 points for each Ten card
-  * 4 points for each King
-  * 3 points for each Queen
-  * 2 points for each Jack.
-* Winner (and only the winner) of the turn can declare a meld using cards from hand. The possible melds and the points earned for each are:
-  * Ace, Ten, King, Queen and Jack of Trump suit - called flush - 150 points
-  * King and Queen of Trump suit - called royal marriage - 40 points
-  * King and Queen of any other suit - called marriage - 20 points
-  * Nine of Trump suit - called dix - 10 points
-  * Aces of four different suits - called four Aces - 100 points
-  * Kings of four different suits - called four Kings - 80 points
-  * Queens of four different suits - called four Queens - 60 points
-  * Jacks of four different suits - called four Jacks - 40 points
-  * Queen of Spades and Jack of Diamonds - called Pinochle - 40 points
+* The winner of the turn adds the lead and chase cards to own capture pile. The winner earns points for the lead and chase cards as described in the points section.
+
+* Winner (and only the winner) of the turn can declare a meld using cards from hand. The possible melds and the points earned for each are described in the points section.
+
 The rules for melds are as follows:
   * The player can make only one meld in a turn.
   * The player can add to an earlier meld to create a new meld with a different name, e.g., add King to a Pinochle from an earlier turn to create a marriage. The player cannot add a fifth King to four of Kings to create a new four of Kings meld.
@@ -86,7 +74,26 @@ On each turn, the winner earns points for:
     * when it is the lead player of the turn - it will want to take possible melds into account before playng a card;
     * when it is the chase player of the turn - it will want to try to win the turn as inexpensively as possible, i.e., use Trump cards only when absolutely necessary.
   * the meld to declare on each turn it wins - it will want to pick the meld that will yield the most points.
-  
+ 
+GAME POINTS
+-----------
+Points earned for the turn cards are as follows:
+  * 11 points for each Ace
+  * 10 points for each Ten card
+  * 4 points for each King
+  * 3 points for each Queen
+  * 2 points for each Jack
+Points earned for a melds are as follows:
+  * Ace, Ten, King, Queen and Jack of Trump suit - called flush - 150 points
+  * King and Queen of Trump suit - called royal marriage - 40 points
+  * King and Queen of any other suit - called marriage - 20 points
+  * Nine of Trump suit - called dix - 10 points
+  * Aces of four different suits - called four Aces - 100 points
+  * Kings of four different suits - called four Kings - 80 points
+  * Queens of four different suits - called four Queens - 60 points
+  * Jacks of four different suits - called four Jacks - 40 points
+  * Queen of Spades and Jack of Diamonds - called Pinochle - 40 points
+
 CLASSES DEFINED FOR THIS PROJECT
 --------------------------------
 
